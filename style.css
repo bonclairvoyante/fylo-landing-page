@@ -5,8 +5,8 @@
   --moderate-cyan: hsl(224, 93%, 58%);
   --light-grayish-blue: hsl(240, 75%, 98%);
   --light-gray: hsl(0, 0%, 75%);
-  --emerald-dark:  hsl(170, 55%, 29%);
-  --emerald-light:  hsl(171, 48%, 83%);
+  --emerald-dark: hsl(170, 55%, 29%);
+  --emerald-light: hsl(171, 48%, 83%);
 }
 
 @font-face {
@@ -19,7 +19,6 @@
   src: url(https://fonts.google.com/specimen/Open+Sans);
 }
 
-
 .input {
   width: 60%;
 }
@@ -27,13 +26,13 @@
   padding: 0.4em;
   border: none;
 }
-.link-img, .link-img:link{
+.link-img,
+.link-img:link {
   text-decoration: none;
   color: var(--emerald-dark);
-  border-bottom: solid .1em var(--emerald-dark);
+  border-bottom: solid 0.1em var(--emerald-dark);
 }
 
-blockquote{
+blockquote {
   background-color: white;
-  box-shadow: ;
 }
