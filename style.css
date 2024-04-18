@@ -25,9 +25,14 @@ h2 {
   font-weight: 700;
 }
 body {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
 }
-.productive{
-  background-color: #f8f8fe;
+.submit-btn {
+  border: none;
+  color: var(--light-grayish-blue);
+  background-color: var(--bright-blue);
 }
+/* .productive {
+  background-color: #F8F8FE;
+} */
