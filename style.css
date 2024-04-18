@@ -19,13 +19,15 @@
   src: url(./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
-
-h1, h2{
-  font-family: 'Raleway';
+h1,
+h2 {
+  font-family: "Raleway";
   font-weight: 700;
-  
 }
-
-.submit-bn{
-  
+body {
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+.productive{
+  background-color: #f8f8fe;
 }
