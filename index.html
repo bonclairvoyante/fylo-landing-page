@@ -31,23 +31,25 @@
       </nav>
     </header>
 
-    <section class="mb-5 pb-5">
-      <div class="container pt-5">
+    <section class="show-case mb-5 pb-5">
+      <div class="container pt-5 mx-auto">
         <div class="row flex-row-reverse">
-          <div class="col-md-6 col-sm-12 order-2 order-md-2 pt-5">
-            <h1 class="pb-2 text-center text-md-start">
+          <div
+            class="col-md-6 col-sm-12 order-2 order-md-2 pt-5 text-center text-md-start text-wrap"
+          >
+            <h1 class="pb-2">
               <strong
                 >All your files in one secure location, accessible
                 anywhere</strong
               >.
             </h1>
-            <p class="pb-2 text-center text-md-start">
+            <p class="pb-2">
               Fylo stores your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends,
               family, and co-workers.
             </p>
-            <form>
-              <div class="row gap-1">
+            <form class="container">
+              <div class="row gap-2">
                 <input
                   type="email"
                   name="email"
@@ -76,7 +78,15 @@
       </div>
     </section>
 
-    <section class="productive w-100">
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/bg-curve-desktop.svg"
+      />
+      <img src="./images/bg-curve-mobile.svg" alt="" class="w-100 img-fluid" />
+    </picture>
+
+    <section class="productive pt-5">
       <div class="container">
         <div class="row flex-row-reverse">
           <article
@@ -129,33 +139,51 @@
               </div>
             </figure>
           </article>
-          <article class="col-md-6">
-            <img src="./images/illustration-2.svg" alt="Fylo Illustration 2" />
+          <article class="col-md-6 mx-auto">
+            <img
+              src="./images/illustration-2.svg"
+              alt="Fylo Illustration 2"
+              class="img-fluid"
+            />
           </article>
         </div>
       </div>
     </section>
 
-    <section class="cta">
-      <h2>Get early access today</h2>
-      <p>
-        It only takes a minute to sign up and our free starter tier is extremely
-        generous. If you have any questions, our support team would be happy to
-        help you.
-      </p>
+    <section class="cta text-center text-md-start p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h2>Get early access today</h2>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
 
-      <form>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          class=""
-          placeholder="email@example.com"
-          required
-        />
+          <form class="col-md-6 col-sm-12 my-1">
+            <div class="container">
+              <div class="row">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="p-1 col-sm-12 col-md-10 p-1 mb-3"
+                  placeholder="email@example.com"
+                  required
+                />
 
-        <button class="btn btn-primary w-50">Get Started For Free</button>
-      </form>
+                <button
+                  class="submit-btn shadow-sm col-sm-12 col-md-6 px-1 py-1"
+                >
+                  Get Started For Free
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
 
     <footer>

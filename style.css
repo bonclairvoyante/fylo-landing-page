@@ -18,7 +18,9 @@
   font-family: "Open Sans";
   src: url(./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
 }
-
+html {
+  background-size: cover;
+}
 h1,
 h2 {
   font-family: "Raleway";
@@ -33,6 +35,11 @@ body {
   color: var(--light-grayish-blue);
   background-color: var(--bright-blue);
 }
-/* .productive {
-  background-color: #F8F8FE;
-} */
+.productive {
+  background-color: #f8f8fe;
+  /* border-top-left-radius: 10rem; 
+  border-top-right-radius: 10rem;  */
+}
+.cta {
+  background-color: var(--desaturated-blue);
+}
