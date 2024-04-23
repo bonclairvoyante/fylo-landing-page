@@ -17,6 +17,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/6c5457ad4e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -71,13 +75,13 @@
                   type="email"
                   name="email"
                   id="email"
-                  class="col-md-6 col-sm-12 w-auto"
+                  class="col-md-6 col-sm-12"
                   placeholder="Enter your email..."
                   required
                 />
                 <button
                   type="submit"
-                  class="submit-btn shadow-sm col-sm-12 col-md-4"
+                  class="submit-btn btn btn-primary shadow-sm col-sm-12 col-md-4"
                 >
                   Get Started
                 </button>
@@ -127,7 +131,7 @@
             /></a>
 
             <figure
-              class="mt-5 text-bg-light w-50 shadow w-100 p-4 rounded border border-light-subtle"
+              class="mt-5 text-bg-light w-auto shadow p-4 rounded border border-light-subtle"
             >
               <img
                 src="./images/icon-quotes.svg"
@@ -186,14 +190,12 @@
                   type="email"
                   name="email"
                   id="email"
-                  class="p-1 col-sm-12 col-md-10 p-1 mb-3"
+                  class="p-2 col-sm-12 col-md-10 mb-3"
                   placeholder="email@example.com"
                   required
                 />
 
-                <button
-                  class="submit-btn shadow-sm col-sm-12 col-md-6 px-1 py-1"
-                >
+                <button class="btn btn-primary shadow-sm col-sm-12 col-md-6">
                   Get Started For Free
                 </button>
               </div>
@@ -204,19 +206,47 @@
     </section>
 
     <footer>
-      <div>
-        <img src="./images/logo.svg" alt="Fylo logo" class="img-fluid" />
-        <img src="./images/icon-phone.svg" alt="phone icon" />
+      <img src="./images/logo.svg" alt="Fylo logo" class="img-fluid" />
+      <div class="contacts">
+        <div class="phone">
+          <img src="./images/icon-phone.svg" alt="phone icon" />
+          <p>Phone:</p>
+          <a href="tel: +1-543-123-4567">+1-543-123-4567</a>
+        </div>
+        <div class="email">
+          <img src="./images/icon-email.svg" alt="email icon" />
+          <p>example@fylo.com</p>
+        </div>
+        <ul class="about-us">
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+
+        <ul class="contact-us">
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+        <picture class="icons">
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+          <i class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+          <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </picture>
       </div>
     </footer>
 
     <!-- 
 
+          
+          
+          <img src="./images/icon-email.svg" alt="email icon" />
+          <p>example@fylo.com</p>
  
 
  
-  Phone: +1-543-123-4567
-  example@fylo.com
+  
 
   About Us
   Jobs

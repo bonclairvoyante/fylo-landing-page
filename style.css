@@ -28,11 +28,7 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
-.submit-btn {
-  border: none;
-  color: var(--light-grayish-blue);
-  background-color: var(--bright-blue);
-}
+
 .productive {
   background-color: #f8f8fe;
   /* border-top-left-radius: 10rem; 
@@ -42,5 +38,9 @@ body {
   background-color: var(--desaturated-blue);
 }
 footer {
-  background-color: var(--very-dark-blue);
+  /* background-color: var(--very-dark-blue); */
+}
+input {
+  border-radius: 0.3rem;
+  border: 0.1rem solid var(--light-gray);
 }
