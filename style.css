@@ -31,16 +31,21 @@ body {
 
 .productive {
   background-color: #f8f8fe;
-  /* border-top-left-radius: 10rem; 
-  border-top-right-radius: 10rem;  */
 }
 .cta {
   background-color: var(--desaturated-blue);
 }
 footer {
-  /* background-color: var(--very-dark-blue); */
+  background-color: var(--very-dark-blue);
+  color: var(--light-gray);
 }
 input {
   border-radius: 0.3rem;
   border: 0.1rem solid var(--light-gray);
+}
+.facebook,
+.twitter,
+.instagram {
+  border: 0.1rem solid var(--light-gray);
+  color: white;
 }
