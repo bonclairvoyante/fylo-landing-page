@@ -32,6 +32,17 @@ body {
 .productive {
   background-color: #f8f8fe;
 }
+.testimony-name {
+  font-size: small;
+  padding: 0;
+  margin: 0;
+}
+.testimony-p {
+  color: gray;
+  font-size: small;
+  padding: 0;
+  margin: 0;
+}
 .cta {
   background-color: var(--desaturated-blue);
 }
@@ -43,6 +54,7 @@ input {
   border-radius: 0.3rem;
   border: 0.1rem solid var(--light-gray);
 }
+
 .facebook,
 .twitter,
 .instagram {
